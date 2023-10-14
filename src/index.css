@@ -1,42 +1,163 @@
 body {
+    background: #0C2632;
+    
     margin: 0;
+    padding: 0;
 }
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.headContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.title{
+footer{
+    position: absolute;
+    width: 100%;
+    background: rgb(159,118,42);
+background: linear-gradient(180deg, rgba(159,118,42,1) 0%, rgba(66,49,18,1) 98%);
+    height: 5rem;
+    bottom: 1;
+    left: 0;
     text-align: center;
 }
-.forms {
-    display: flex;
-    flex-direction: row;
-}
-.custome-logo-container {
-    display: flex;
-    flex-direction: row;
-}
-.custome-logo {
-    height: 8px;
-    width: 16px;
-    border-radius: 16px;
-    margin: 6rem;
-}
-.costume-image {
-    object-fit: contain;
-    height: 8rem;
-    width: 8rem;
+.title-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
 }
 
-.title-test {
-    margin-top: 180px;
+.second-title-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sub-title-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.prof-text {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.prof-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.img-logo-custom {
+    min-height: 16px;
+    max-height: 128px;
+}
+
+.img-logo {
+    min-height: 16px;
+    max-height: 256px;
+}
+.img-foot{
+    height: 80px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: column;
+    border-radius: 45px;
+}
+.castle-logo {
+    min-height: 64px;
+    max-height: 512px;
+}
+
+.container-img {
+    max-height: 128px;
+    max-width: 256px;
+    min-height: 128px;
+    min-width: 64px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+.container-card-img {
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 45px;
+}
+
+.color-hp-1 {
+    background: rgb(55, 1, 2);
+    background: linear-gradient(141deg, rgba(55, 1, 2, 1) 0%, rgba(135, 6, 9, 1) 98%);
+}
+
+.color-hp-2 {
+    background: rgb(61, 51, 6);
+    background: linear-gradient(141deg, rgba(61, 51, 6, 1) 0%, rgba(232, 194, 20, 1) 98%);
+}
+
+.color-hp-3 {
+    background: rgb(13, 55, 12);
+    background: linear-gradient(141deg, rgba(13, 55, 12, 1) 0%, rgba(36, 140, 34, 1) 98%);
+}
+
+.color-hp-4 {
+    background: rgb(2, 42, 52);
+    background: linear-gradient(141deg, rgba(2, 42, 52, 1) 0%, rgba(4, 148, 183, 1) 98%);
+}
+
+.card-1 {
+    width: 24rem;
+    margin: 16px;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+    align-items: center;
+    background: rgb(55, 1, 2);
+    background: linear-gradient(141deg, rgba(55, 1, 2, 1) 0%, rgba(135, 6, 9, 1) 98%);
+}
+
+.card-2 {
+    width: 24rem;
+    margin: 16px;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+    align-items: center;
+    background: rgb(61, 51, 6);
+    background: linear-gradient(141deg, rgba(61, 51, 6, 1) 0%, rgba(232, 194, 20, 1) 98%);
+}
+
+.card-3 {
+    width: 24rem;
+    margin: 16px;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+    align-items: center;
+    background: rgb(13, 55, 12);
+    background: linear-gradient(141deg, rgba(13, 55, 12, 1) 0%, rgba(36, 140, 34, 1) 98%);
+}
+
+.card-4 {
+    width: 24rem;
+    margin: 16px;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+    align-items: center;
+    background: rgb(2, 42, 52);
+    background: linear-gradient(141deg, rgba(2, 42, 52, 1) 0%, rgba(4, 148, 183, 1) 98%);
 }

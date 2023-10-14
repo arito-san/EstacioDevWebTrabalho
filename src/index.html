@@ -1,13 +1,3 @@
-<!-- 
-    # extra small          -> xs
-    # small                -> sm
-    # medium               -> md
-    # large                -> lg
-    # extra large          -> xl
-    # extra extra large    -> xxl 
-    # bootstrap: https://getbootstrap.com/docs/5.3/getting-started/download/
- -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,59 +10,249 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="headContainer">
-            <div style="align-content: center;">
-                <img style="object-fit: contain; height: 10rem; width: 10rem;"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhT6xHTjFne2EOQ5BQNAvRfSRhoxKc7-uJlg&usqp=CAU" />
+    <div class="container-sm">
+        <div class="col-sm">
+            <div class="row-sm d-flex justify-content-center">
+                <img src="./assets/logo.png" class="img-fluid img-logo" alt="logo-bar">
             </div>
-            <div class="title">
-                <h1 class="title">Best Headline in the world</h1>
-                <p class="title" style="margin-bottom: 32px;">lokfdngfdugyasgdyasdisadjioassadsajd</p>
+            <div class="row-sm">
+                <p class="title-text">Bem vindo a Hogwarts</p>
+                <p class="sub-title-text">Descubra um mundo de magia e aprendizado na Escola de Magia e Bruxaria de
+                    Hogwarts. Aprenda feitiços, poções e faça amigos para a vida toda. Junte-se a nós e embarque em uma
+                    jornada extraordinária! </p>
             </div>
-            <div class="forms">
-                <div class="mb-3" style="margin-right: 18px;">
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
-                </div>
-                <div class="col-auto" style="margin-right: 18px;">
-                    <input type="password" id="inputPassword6" class="form-control"
-                        aria-describedby="passwordHelpInline" placeholder="digite sua senha">
-                </div>
-                <button class="btn btn-primary" type="submit" style="width: 8rem; height: 2.5rem;">Button</button>
-            </div>
-            <div class="custome-logo-container">
-                <div class="custome-logo">
-                    <img class="costume-image"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhT6xHTjFne2EOQ5BQNAvRfSRhoxKc7-uJlg&usqp=CAU" />
-                </div>
-                <div class="custome-logo">
-                    <img class="costume-image"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhT6xHTjFne2EOQ5BQNAvRfSRhoxKc7-uJlg&usqp=CAU" />
-                </div>
-                <div class="custome-logo">
-                    <img class="costume-image"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhT6xHTjFne2EOQ5BQNAvRfSRhoxKc7-uJlg&usqp=CAU" />
-                </div>
-                <div class="custome-logo">
-                    <img class="costume-image"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhT6xHTjFne2EOQ5BQNAvRfSRhoxKc7-uJlg&usqp=CAU" />
+            <div class="row-sm d-flex justify-content-center" style="margin-top: 64px;">
+                <div class="form-group col-sm-9 col-md-9 col-lg-9 d-flex">
+                    <input type="text" class="form-control" id="inputCEP" style="margin-right: 16px;"
+                        placeholder="Email">
+                    <input type="password" class="form-control" id="inputCEP" style="margin-right: 16px;"
+                        placeholder="Senha">
+                    <input class="col-3 btn btn-primary" type="submit" value="Logar"
+                        style="background-color: #85080C; border-color: #4b0204;">
                 </div>
             </div>
-            <div class="title-test">
-                <h1>Why user our platform</h1>
-                <div class="container-feature">
-                    <div>
-                        <img />
+            <div class="row-sm" style="margin-top: 64px;">
+                <div class="col-sm d-flex justify-content-around">
+                    <div class="col-2 container-img color-hp-1">
+                        <img src="./assets/hp-1.png" class="img-fluid img-logo-custom" alt="logo-bar">
                     </div>
-                    <div>
-                        <h2>FEATURE N01</h2>
-                        <p> I'm really good feature. That's why we want to talk about it</p>
+                    <div class="col-2 container-img color-hp-2">
+                        <img src="./assets/hp-2.png" class="img-fluid img-logo-custom" alt="logo-bar">
+                    </div>
+                    <div class="col-2 container-img color-hp-3">
+                        <img src="./assets/hp-3.png" class="img-fluid img-logo-custom" alt="logo-bar">
+                    </div>
+                    <div class="col-2 container-img color-hp-4">
+                        <img src="./assets/hp-4.png" class="img-fluid img-logo-custom" alt="logo-bar">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="col-sm" style="margin-top: 128px;">
+            <div class="row-sm">
+                <p class="second-title-text">Explore o mundo mágico de Hogwarts e conheça os renomados professores que
+                    compartilham seu conhecimento e sabedoria na escola de magia mais prestigiosa. Venha, e mergulhe na
+                    magia do ensino de excelência!</p>
+            </div>
+            <div class="row" style="display: flex; justify-content: space-between;">
+                <div class="card-1">
+                    <div class="container-card-img">
+                        <img src="./assets/alvo.png" class="img-fluid img-logo" alt="...">
+                    </div>
+                    <div style="max-width: 15rem;">
+                        <p class="prof-title">Alvo Dumbledore</p>
+                        <p class="prof-text">Diretor de Hogwarts e professor de Transfiguração</p>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <div class="container-card-img">
+                        <img src="./assets/miner.png" class="img-fluid img-logo" alt="...">
+                    </div>
+                    <div style="max-width: 15rem;">
+                        <p class="prof-title">Minerva McGonagall</p>
+                        <p class="prof-text">Vice-diretora de Hogwarts e professora de Transfiguração</p>
+                    </div>
+                </div>
+                <div class="card-3">
+                    <div class="container-card-img">
+                        <img src="./assets/severo.png" class="img-fluid img-logo" alt="...">
+                    </div>
+                    <div style="max-width: 15rem;">
+                        <p class="prof-title">Severo Snape</p>
+                        <p class="prof-text">Professor de Poções e chefe da Casa Sonserina</p>
+                    </div>
+                </div>
+                <div class="card-4">
+                    <div class="container-card-img">
+                        <img src="./assets/flit.png" class="img-fluid img-logo" alt="...">
+                    </div>
+                    <div style="max-width: 15rem;">
+                        <p class="prof-title">Fílio Flitwick</p>
+                        <p class="prof-text">Professor de Feitiços e chefe da Casa Corvinal</p>
+                    </div>
+                </div>
+                <div class="card-2">
+                    <div class="container-card-img">
+                        <img src="./assets/sprot.png" class="img-fluid img-logo" alt="...">
+                    </div>
+                    <div style="max-width: 15rem;">
+                        <p class="prof-title">Pomona Sprout</p>
+                        <p class="prof-text">Professora de Herbologia e chefe da Casa Lufa-Lufa</p>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <div class="container-card-img">
+                        <img src="./assets/remo.png" class="img-fluid img-logo" alt="...">
+                    </div>
+                    <div style="max-width: 15rem;">
+                        <p class="prof-title">Remo Lupin</p>
+                        <p class="prof-text">Professor de Defesa Contra as Artes das Trevas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="margin-top: 64px; display: flex;">
+            <div>
+                <div class="row-sm d-flex justify-content-center">
+                    <img src="./assets/castle.png" class="img-fluid castle-logo" alt="logo-bar">
+                </div>
+            </div>
+            <div style="width: 50%;">
+                <div>
+                    <p style="font-size: 32px; font-weight: bold; text-align: center; color: #fff;">Explore a Magia de
+                        Hogwarts!</p>
+                </div>
+                <div>
+                    <p style="font-size: 16px; color: #fff;">Na Escola de Magia e Bruxaria de Hogwarts, a aventura e o
+                        aprendizado se entrelaçam como em nenhum outro lugar! Fundada por bruxos renomados, Hogwarts é o
+                        lugar onde jovens bruxos e bruxas descobrem seu potencial e desvendam os segredos da magia. Com
+                        quatro Casas distintas, você encontrará sua segunda família e terá a chance de viver incríveis
+                        histórias de coragem, amizade e descobertas.</p>
+                </div>
+                <div>
+                    <p style="color: #fff;">Em Hogwarts, você vai:</p>
+                    <ul>
+                        <li style="color: #fff;">
+                            <p style="color: #fff;"><b>Aprender Magia:</b> Dos feitiços básicos aos encantamentos mais
+                                complexos, nossa
+                                equipe de professores talentosos irá orientá-lo em sua jornada mágica.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li style="color: #fff;">
+                            <p style="color: #fff;"><b>Fazer Amigos para Toda a Vida:</b> As Casas - Grifinória,
+                                Sonserina, Corvinal e Lufa-Lufa
+                                - são mais do que grupos; são lares onde amizades duradouras se formam.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li style="color: #fff;">
+                            <p style="color: #fff;"><b>Explorar Lugares Mágicos:</b> De sala comunal a campo de
+                                Quadribol, você explorará
+                                lugares incríveis dentro do castelo.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li style="color: #fff;">
+                            <p style="color: #fff;"><b>Descobrir Segredos Antigos:</b> Hogwarts está repleta de segredos
+                                e mistérios esperando
+                                para serem desvendados.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="margin-top: 64px; display: flex;">
+            <div
+                style="width: 50%; display: flex; align-items: center; justify-content: center; flex-direction: column; margin-right: 16px;">
+                <div>
+                    <p style="font-size: 32px; font-weight: bold; text-align: center; color: #fff;">Viva a Magia do
+                        Quadribol!</p>
+                </div>
+                <div>
+                    <p style="font-size: 16px; color: #fff;">Venha se juntar à diversão e à emoção do Quadribol na nossa
+                        escola! Prepare-se para experimentar a alegria de voar nas alturas enquanto compete na mais
+                        emocionante das partidas.</p>
+                    <p style="font-size: 16px; color: #fff;">Em nossa escola, o Quadribol não é apenas um jogo; é uma
+                        paixão que une todos os nossos alunos. Com vassouras em mãos e espírito de equipe, você
+                        mergulhará em partidas eletrizantes e criará memórias incríveis.</p>
+                    <p style="font-size: 16px; color: #fff;">Desafie a gravidade, aprimore suas habilidades e faça parte
+                        da história do Quadribol em nossa escola. Não perca a oportunidade de participar deste jogo
+                        mágico e cheio de aventuras!</p>
+                    <p style="font-size: 16px; color: #fff;">
+                        Junte-se a nós e descubra o que é voar em busca da vitória! </p>
+                </div>
+
+            </div>
+            <div>
+                <div class="row-sm d-flex justify-content-center">
+                    <video controls poster="./assets/quadri.jpg" width="600" height="500">
+                        <source src="./assets/kf.mp4" type="video/mp4" style="width: 600px; height: 600px;">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 128px; ">
+            <div
+                style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin-right: 16px;">
+                <div>
+                    <p style="font-size: 32px; font-weight: bold; text-align: center; color: #fff;">Veja Alguns dos
+                        Bruxos que Avaliaram Nossa Escola!</p>
+                </div>
+                <div>
+                    <p style="font-size: 16px; color: #fff; text-align: center;">Aqui estão algumas avaliações de bruxos
+                        que já passaram
+                        pela nossa escola e tiveram a oportunidade de viver a magia conosco. Suas palavras inspiradoras
+                        são um testemunho do nosso compromisso com a excelência na educação mágica.</p>
+                </div>
+                <div style="display: flex; align-items: center; flex-direction: column;">
+                    <div class="container-card-img" style="margin-top: 32px;">
+                        <img src="./assets/profs.png" class="img-fluid img-logo" alt="..." style="margin-right: 24px;">
+                        <img src="./assets/profs1.png" class="img-fluid img-logo" alt="..."
+                            style="opacity: 50%; margin-right: 24px;">
+                        <img src="./assets/profs2.png" class="img-fluid img-logo" alt="..." style="opacity: 50%;">
+                    </div>
+                    <div class="card w-50" style="margin-top: 16px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Miqueias Maia</h5>
+                            <p class="card-text">Não há lugar como Hogwarts. É onde a magia da aprendizagem se encontra
+                                com a magia do coração. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm" style="margin-top: 100px; margin-bottom: 128px;">
+                <div class="row-sm">
+                    <p class="title-text">Dê um Passo para o Mundo da Magia</p>
+                    <p class="sub-title-text">Você está prestes a embarcar em uma jornada mágica! Tudo o que você
+                        precisa
+                        fazer é nos fornecer o seu nome e endereço de e-mail. Com um simples toque, você estará um passo
+                        mais perto de entrar na Escola de Magia e desvendar os segredos do mundo encantado.</p>
+                </div>
+                <div class="row-sm d-flex justify-content-center" style="margin-top: 64px;">
+                    <div class="form-group col-sm-7 col-md-7 col-lg-7 d-flex">
+                        <input type="text" class="form-control" id="inputCEP" style="margin-right: 16px;"
+                            placeholder="Nome">
+                        <input type="text" class="form-control" id="inputCEP" style="margin-right: 16px;"
+                            placeholder="Email">
+                        <input class="col-3 btn btn-primary" type="submit" value="Enviar"
+                            style="background-color: #85080C; border-color: #4b0204;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="img-foot">
+                    <img src="./assets/logo-foot.png" class="img-fluid img-logo" alt="...">
+                </div>
+                <div style=" margin-right: 16px;">
+                    <p style="color: #fff; font-weight: 300;"> © 2023 Escola de Magia e Bruxaria de Hogwarts. Todos os direitos reservados. Versão Mágica.</p>
+                </div>
+            </div>
+        </footer>
 </body>
+
 
 </html>
